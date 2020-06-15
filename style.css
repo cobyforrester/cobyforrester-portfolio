@@ -1,7 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&display=swap');
 
+body {
+      overflow-x: hidden;
+      font-family: 'Noto Sans HK', sans-serif;
+      color: #041043;
+}
+/*-- Nav --*/
 
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0,0,0,0.6)!important;
+}
 
+.navbar-nav li{
+  padding-right: 0.7rem;
+}
 
+.navbar-dark .navbar-nav .nav-lnk {
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #3ED7DE;
+}
+
+/*-- Landing page --*/
+.home-inner {
+  background-image: url(img/desktop_programming.png);
+  opacity: 0.6;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+  /*background-color: black;*/
+
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+}
+.btn-lg:hover {
+  border-color: #3ED7DE;
+  background-color: rgba(0,0,0,0.6);
+  color: #3ED7DE;
+}
 
 /*============= COURSE SECTION =============*/
 
