@@ -98,6 +98,16 @@ body {
   color: white;
 }
 
+/*------------ Skills Section ---------*/
+.language img {
+  padding: 5px;
+  width: 200px;
+}
+.language-jhs img {
+  padding: 5px;
+  width: 300px;
+}
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
