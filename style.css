@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&display=swap');
 
 body {
+      background-color: ivory;
       overflow-x: hidden;
       font-family: 'Noto Sans HK', sans-serif;
       color: #041043;
@@ -98,16 +99,46 @@ body {
   color: white;
 }
 
-/*------------ Skills Section ---------*/
-.language img {
-  padding: 5px;
-  width: 200px;
-}
-.language-jhs img {
-  padding: 5px;
-  width: 300px;
+/*============= SKILLS SECTION =============*/
+
+.heading-skills {
+  text-align: center;
+  z-index: 1;
+  font-size: 3.8rem;
+  font-weight: 400;
+  letter-spacing: .3rem;
+  padding-bottom: 1rem;
 }
 
+
+/*------- Languages -------*/
+
+.language img {
+  width: 45%;
+}
+
+.language-python img {
+  padding-top: .8rem;
+}
+
+.language-java img {
+  padding-top: .8rem;
+}
+
+
+/*----- Technologies -----*/
+
+.technology-react img {
+  padding-top: 2rem;
+}
+
+.technology-sql img {
+  padding-top: 1.8rem;
+}
+
+.technology-bootstrap img {
+  padding-top: .3rem;
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
