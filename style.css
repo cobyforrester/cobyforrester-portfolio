@@ -70,7 +70,7 @@ body {
   color: #3ED7DE;
 }
 
-/*============= COURSE SECTION =============*/
+/*============= RESUME SECTION =============*/
 
 .narrow {
   width: 75%;
@@ -87,8 +87,8 @@ body {
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
+  border-color: #3ED7DE;
+  background-color: #3ED7DE;
   color: white;
 }
 .btn-secondary:hover,
