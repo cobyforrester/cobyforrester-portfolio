@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&display=swap');
 
 body {
-      background-color: ivory;
+      background-image: ivory;
       overflow-x: hidden;
       font-family: 'Noto Sans HK', sans-serif;
       color: #041043;
 }
+
+.big-body {
+  background-image: url(img/blue-green.png);
+}
+
 /*-- Nav --*/
 
 .navbar {
@@ -101,6 +106,11 @@ body {
 
 /*============= SKILLS SECTION =============*/
 
+
+.primary-lang {
+  padding-top: 2rem;
+}
+
 .heading-skills {
   text-align: center;
   z-index: 1;
@@ -114,7 +124,7 @@ body {
 /*------- Languages -------*/
 
 .language img {
-  width: 45%;
+  width: 10%;
 }
 
 .language-python img {
@@ -129,20 +139,14 @@ body {
 /*----- Technologies -----*/
 
 .technology img{
-  width: 45%;
+  width: 10%;
 }
 
-.technology-react img {
-  padding-top: 2.4rem;
+.react-img {
+  background-color: black;
+  opacity: .5;
 }
 
-.technology-sql img {
-  padding-top: 1.8rem;
-}
-
-.technology-bootstrap img {
-  padding-top: .3rem;
-}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
@@ -162,3 +166,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+
+/*========EXTRA============*/
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+.grow:hover { 
+transform: scale(1.1); 
+}
