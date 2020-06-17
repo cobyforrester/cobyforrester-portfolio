@@ -104,7 +104,7 @@ body {
 .heading-skills {
   text-align: center;
   z-index: 1;
-  font-size: 3.8rem;
+  font-size: 3.0rem;
   font-weight: 400;
   letter-spacing: .3rem;
   padding-bottom: 1rem;
@@ -128,8 +128,12 @@ body {
 
 /*----- Technologies -----*/
 
+.technology img{
+  width: 45%;
+}
+
 .technology-react img {
-  padding-top: 2rem;
+  padding-top: 2.4rem;
 }
 
 .technology-sql img {
