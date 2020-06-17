@@ -7,9 +7,10 @@ body {
       color: #041043;
 }
 
-.big-body {
+/*.big-body {
   background-image: url(img/blue-green.png);
 }
+*/
 
 /*-- Nav --*/
 
@@ -99,9 +100,9 @@ body {
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
-  border-color: #189582;
-  background-color: #189582;
-  color: white;
+  border-color: #3ED7DE;
+  background-color: rgba(0,0,0,0.6);
+  color: #3ED7DE;
 }
 
 /*============= SKILLS SECTION =============*/
@@ -139,7 +140,7 @@ body {
 /*----- Technologies -----*/
 
 .technology img{
-  width: 10%;
+  width: 11.5%;
 }
 
 .react-img {
