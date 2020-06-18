@@ -107,6 +107,13 @@ body {
 
 /*============= SKILLS SECTION =============*/
 
+#skills h1{
+  text-transform: uppercase;
+  font-size: 3.8rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-weight: 700;
+}
 
 .primary-lang {
   padding-top: 2rem;
@@ -121,32 +128,29 @@ body {
   padding-bottom: 1rem;
 }
 
+.cust-card h5{
+  font-size: 1.5rem;
+}
+
 
 /*------- Languages -------*/
 
-.language img {
-  width: 10%;
+.language img{
+  width: 25%;
 }
 
-.language-python img {
-  padding-top: .8rem;
-}
-
-.language-java img {
-  padding-top: .8rem;
-}
 
 
 /*----- Technologies -----*/
 
-.technology img{
-  width: 11.5%;
+.web-dev img{
+  width: 25%;
 }
 
-.react-img {
-  background-color: black;
-  opacity: .5;
+.technology img{
+  width: 25%
 }
+
 
 
 /*============ BOOTSTRAP BREAK POINTS:
