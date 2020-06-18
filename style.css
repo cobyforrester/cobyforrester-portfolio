@@ -1,18 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&display=swap');
 
 body {
-      background-image: ivory;
+      background-color: white;
       overflow-x: hidden;
       font-family: 'Noto Sans HK', sans-serif;
       color: #041043;
 }
 
-/*.big-body {
-  background-image: url(img/blue-green.png);
-}
-*/
-
-/*-- Nav --*/
+/*========== Navigation ==========*/
 
 .navbar {
   text-transform: uppercase;
@@ -115,18 +110,7 @@ body {
   font-weight: 700;
 }
 
-.primary-lang {
-  padding-top: 2rem;
-}
 
-.heading-skills {
-  text-align: center;
-  z-index: 1;
-  font-size: 3.0rem;
-  font-weight: 400;
-  letter-spacing: .3rem;
-  padding-bottom: 1rem;
-}
 
 .cust-card h5{
   font-size: 1.5rem;
@@ -134,20 +118,38 @@ body {
 
 
 /*------- Languages -------*/
+.language {
+  width: 98%;
+}
 
 .language img{
+  image-rendering: crisp-edges;
   width: 25%;
 }
+
+
+
+/*----- Web-Dev -----*/
+
+.web-dev{
+  width: 98%;
+}
+
+.web-dev img{
+  image-rendering: crisp-edges;
+  width: 25%;
+}
+
 
 
 
 /*----- Technologies -----*/
-
-.web-dev img{
-  width: 25%;
+.technology{
+  width: 98%;
 }
 
 .technology img{
+  image-rendering: crisp-edges;
   width: 25%
 }
 
