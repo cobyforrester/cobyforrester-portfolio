@@ -6,7 +6,7 @@
 	<title>Coby Forrester's Portfolio</title>
 	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="css/fixed.css">
+
 </head>
 
 <body data-spy="scroll" data-target="#navbarResponsive">
@@ -68,20 +68,15 @@
 	<div id="resume" class="resume">
 		<div class="row text-center">
 		<!-- Resume header -->
-		<div class="col-12 text-center">
-			<h1>RESUME</h1>
-			<!--This is where a resume link will go!-->
-			<a class="btn btn-secondary btn-md" href="" target="_blank">Download Resume</a>
-		</div>
 
-		<!-- Resume body -->
+		<!-- Resume header -->
 		<div class="container">
-
 			<div class="section-title">
-			  <h2>About Me</h2>
-			  <p>Highly motivated, eager to learn recent graduate seeking a software development position.</p>
+			  <h2>RESUME</h2>
+			  <p><strong>About: </strong>Highly motivated, eager to learn recent graduate seeking a <strong>software development position</strong>.</p>
 			</div>
-	
+			
+			<!-- Resume body -->
 			<div class="row">
 			  <div class="col-lg-6">
 				<h3 class="resume-title">Skills</h3>
@@ -95,7 +90,7 @@
 				<div class="resume-item">
 				  <h4>Some Experience</h4>
 				  <p><strong>Languages: </strong>C/C++, MIPS(Assembly Language), Perl</p>
-				  <p><strong>Frameworks / Libraries: </strong>vue.js, py4web, Bulma</p>
+				  <p><strong>Frameworks / Libraries: </strong>Flask, Vue.js, py4web, Bulma</p>
 				  <p><strong>Other: </strong>Raspberry Pi's</p>
 				</div>
 	
@@ -148,36 +143,30 @@
 		<!-- Bootstrap card with flipping -->
 		<div class="col-lg-4">
 			<!-- Project Card -->
-			<div class="card project-card">
+			<div class="card project-card grow">
 				<!-- Project Card content -->
 				<div class="card-body d-flex flex-row">
 					<!-- Content -->
 					<div>
 						<!-- Title -->
-						<h4 class="card-title font-weight-bold mb-2">Key-Value Store With Replication and Fault Tolerance</h4>
+						<h4 class="card-title font-weight-bold">Distributed Key-Value Store With 
+							Replication, Fault Tolerance and Causal Consistency</h4>
 						<!-- Subtitle -->
 						<p class="card-text"><i class="far fa-clock pr-2"></i>03/24/2020</p>
 					</div>
 				</div>
 				<!-- Project Card image -->
-				<div class="view overlay">
-					<img class="card-img-top rounded-0" src="img/algorithm.jpg" alt="Card image cap">
-					<a href="#!">
-						<div class="mask rgba-white-slight"></div>
-					</a>
+				<div class="proj-card-img overlay">
+					<img class="card-img-top" src="img/algorithm.jpg" alt="">
+					<a class="btn btn-outline-light btn-sm" href="">GitHub</a>
 				</div>
 				<!-- Project Card content -->
 				<div class="card-body">
 					<div class="collapse-content">
 						<!-- Text -->
-						<p class="card-text collapse" id="collapseContent">Recently, we added several 
-							exotic new dishes to our restaurant menu. They come from countries such 
-							as Mexico, Argentina, and Spain. Come to us, have some delicious wine 
-							and enjoy our juicy meals from around the world.</p>
-						<!-- Button -->
-						<a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#collapseContent" aria-expanded="false" aria-controls="collapseContent"></a>
-						<i class="fas fa-share-alt text-muted float-right p-1 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
-						<i class="fas fa-heart text-muted float-right p-1 my-1 mr-3" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+						<div class="card-text">
+							<p><strong>Technologies:</strong> Django, React JS, Docker</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -185,13 +174,6 @@
 		</div>
 	</div>
 	<!-- End Projects Section-->
-
-	<!-- Start Projects Section -->
-	<div id="experience">
-
-	</div>
-	<!-- End Projects Section-->
-
 	<!-- Start Contact Section -->
 	<div id="contact">
 

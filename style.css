@@ -4,7 +4,29 @@ body {
       background-color: white;
       overflow-x: hidden;
       font-family: 'Noto Sans HK', sans-serif;
-      color: #041043;
+      color: black;
+}
+
+/*--- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+  }
+
+/*--- Fix for Fixed Navbar jumping on scroll --*/
+.fixed-top  {
+  -webkit-backface-visibility: hidden;
+ }
+
+/*---- For header sizes of sections -----*/
+* h2 {
+  font-size: 32px;
+  padding-top: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  position: relative;
 }
 
 /*========== Navigation ==========*/
@@ -32,10 +54,38 @@ body {
 }
 
 /*-- Landing page --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .home-inner {
   background-image: url(img/desktop_programming.png);
   opacity: 0.6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+/*----- webkit for ios apps ex. safari... (or so I think) ------*/
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
 }
+
 
 .caption {
   width: 100%;
@@ -82,11 +132,12 @@ body {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 400;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #222222;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: black;
 }
 
+/*----- Border on left and padding -------*/
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
@@ -98,14 +149,12 @@ body {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
   color: #1d685f;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #effbf9;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -125,34 +174,21 @@ body {
   padding-bottom: 0;
 }
 
+/*----- Makes the circle on the side of resume ----*/
 .resume .resume-item::before {
   content: "";
   position: absolute;
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
   border-radius: 50px;
   left: -9px;
-  top: 0;
-  background: #fff;
+  background: white;
   border: 2px solid #34b7a7;
 }
 
-.btn-secondary {
-  border-width: medium;
-  border-radius: 0;
-  padding: .6rem 1.2rem;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  margin: 1rem;
-  border-color: #3ED7DE;
-  background-color: #3ED7DE;
-  color: white;
-}
-.btn-secondary:hover,
-.btn-secondary:focus {
-  border-color: #3ED7DE;
-  background-color: rgba(0,0,0,0.6);
-  color: #3ED7DE;
+.section-title {
+  text-align: center;
+  padding-bottom: 2rem;
 }
 
 
@@ -165,11 +201,33 @@ body {
   color: #aaa;
 }
 
-.collapse-content .fa.fa-heart:hover {
-  color: #f44336 !important;
+.project-card:hover img{
+  opacity: .3;
 }
-.collapse-content .fa.fa-share-alt:hover {
-  color: #0d47a1 !important;
+.project-card:hover .card-body{
+  opacity: .3;
+}
+
+.project-card:hover .btn{
+  cursor: pointer;
+  opacity: 1;
+
+}
+
+.proj-card-img .btn {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 
@@ -200,5 +258,5 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
   
 .grow:hover { 
-transform: scale(1.1); 
+transform: scale(1.05); 
 }
