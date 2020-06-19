@@ -199,7 +199,14 @@ body {
 .project-card{
   background-color: #333;
   color: #aaa;
+  height: 98.5%;
+  width: 100%;
 }
+
+
+
+
+/*---------- Below is to make it so buttons show on hover, and  card become opaque ------------*/
 
 .project-card:hover img{
   opacity: .3;
