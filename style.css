@@ -74,14 +74,69 @@ body {
 
 /*============= RESUME SECTION =============*/
 
-.narrow {
-  width: 75%;
-  margin: 1.5rem auto;
+.resume h1{
   padding-top: 2rem;
+  font-weight: 400;
 }
-.narrow h1 {
-    font-size: 2.4rem;
-  }
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #222222;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #34b7a7;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #1d685f;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #effbf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #34b7a7;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #34b7a7;
+}
+
 .btn-secondary {
   border-width: medium;
   border-radius: 0;
@@ -100,58 +155,7 @@ body {
   color: #3ED7DE;
 }
 
-/*============= SKILLS SECTION =============*/
 
-#skills h1{
-  text-transform: uppercase;
-  font-size: 3.8rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  font-weight: 700;
-}
-
-
-
-.cust-card h5{
-  font-size: 1.5rem;
-}
-
-
-/*------- Languages -------*/
-.language {
-  width: 98%;
-}
-
-.language img{
-  image-rendering: crisp-edges;
-  width: 25%;
-}
-
-
-
-/*----- Web-Dev -----*/
-
-.web-dev{
-  width: 98%;
-}
-
-.web-dev img{
-  image-rendering: crisp-edges;
-  width: 25%;
-}
-
-
-
-
-/*----- Technologies -----*/
-.technology{
-  width: 98%;
-}
-
-.technology img{
-  image-rendering: crisp-edges;
-  width: 10%
-}
 
 /*======================== Projects ==============================*/
 /*---- Cards ----*/
@@ -167,6 +171,7 @@ body {
 .collapse-content .fa.fa-share-alt:hover {
   color: #0d47a1 !important;
 }
+
 
 
 
