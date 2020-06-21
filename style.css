@@ -196,6 +196,11 @@ body {
 /*======================== Projects ==============================*/
 /*---- Cards ----*/
 
+#projects h2{
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
 .project-card{
   background-color: #333;
   color: #aaa;
@@ -250,6 +255,11 @@ body {
 
 
 
+/*================== CONTACT ME ==================*/
+
+#contact{
+  padding-bottom: 5rem;
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
