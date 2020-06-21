@@ -1,0 +1,5 @@
+Home section inspired by https://kouta1612.github.io/LP_Product2/
+
+Resume section inspired by: https://bootstrapmade.com/demo/Kelly/
+
+Some code is taken from both these open source templates as well.
