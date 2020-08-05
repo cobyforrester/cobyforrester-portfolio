@@ -7,6 +7,11 @@ body {
   color: black;
 }
 
+.all-headers {
+  text-decoration: underline;
+  text-decoration-color: #3ed7de;
+}
+
 /*--- Bootstrap Mobile Gutter Fix --*/
 .row,
 .container-fluid {
@@ -72,7 +77,7 @@ body {
 }
 
 .home-inner {
-  background-image: url(img/desktop_programming.png);
+  background-image: url(img/desktop_programming.webp);
   opacity: 0.6;
   position: fixed;
   top: 0;
@@ -182,7 +187,7 @@ body {
   border-radius: 50px;
   left: -9px;
   background: white;
-  border: 2px solid #34b7a7;
+  border: 2px solid #3ed7de;
 }
 
 .section-title {
