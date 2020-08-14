@@ -36,7 +36,6 @@ body {
 }
 
 /*========== Navigation ==========*/
-
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
@@ -76,8 +75,18 @@ body {
   height: 100%;
 }
 
+/* FOR WEBP SUPPORT
+.webp .home-inner {
+  background-image: url("img/desktop_programming.webp");
+}
+
+.no-webp .home-inner {
+  background-image: url("img/desktop_optimized.jpg");
+}
+*/
+
 .home-inner {
-  background-image: url(img/desktop_optimized.jpg);
+  background-image: url("img/desktop_optimized.jpg");
   opacity: 0.6;
   position: fixed;
   top: 0;
@@ -217,11 +226,8 @@ body {
 /*---------- Below is to make it so GIF's show on hover ------------*/
 
 .zs-proj-img img {
-  background:url("img/zenscrum_tasks.png");
+  background: url("img/zenscrum_tasks.png");
 }
-
-
-
 
 /*================== CONTACT ME ==================*/
 
